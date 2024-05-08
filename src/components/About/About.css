@@ -1,0 +1,120 @@
+.outerabout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 85vw;
+    margin: 1rem 7rem;
+    margin-top: 1rem;
+  }
+  
+  #firstabout, #secondabout, #thirdabout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 2rem 0;
+  }
+  
+  .leftabout {
+    width: 40%;
+    text-align: left;
+    margin-right: 6rem;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+  }
+  
+  .rightabout {
+    width: 40%;
+  }
+  
+  .rightabout img {
+    max-width: 100%;
+    height: auto;
+  }
+  #secondabout img{
+    width: 24rem;
+    height: auto;
+
+  }
+  #secondabout p{
+    margin-left: -4rem;
+  }
+
+  @media (max-width: 768px) {
+    .outerabout {
+      margin: 2rem 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    
+    
+    #firstabout, #secondabout, #thirdabout {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 1rem 2rem;
+      text-align: center;
+    }
+    #secondabout {
+      display: none;
+    }
+    .leftabout, .rightabout {
+      width: 80%;
+      text-align: center;
+     
+    }
+  
+    .leftabout h2 {
+      font-size: 2rem;
+    }
+  }
+
+  p{
+    font-size: 1.2rem;
+    line-height: 2.3rem;
+  }
+  img{
+    border-radius: 0.2rem;
+    width: 24rem;
+    height: auto;
+  }
+
+@media (max-width: 768px) {
+  .outerabout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .about-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+  }
+
+  .about-section .leftabout img,
+  .about-section .rightabout img {
+    width: 100%;
+    height: auto;
+    margin: 1rem 1rem;
+   
+     /* Add some spacing between image and text */
+  }
+
+  .about-section .leftabout p,
+  .about-section .rightabout p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  img{
+    margin-right: 6rem;
+  }
+}

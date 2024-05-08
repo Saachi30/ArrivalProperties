@@ -1,0 +1,23 @@
+.form-group{
+    padding: 0rem 2rem;
+    margin: 1rem 0rem;
+}
+form{
+    margin: 2rem 0rem;
+    margin-left: 1rem;
+}
+.btn{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    background-color:#734101;
+    border: 0px ;
+    color: white;
+}
+.btn:hover{
+    color: white;
+    background-color:#936d02;
+  
+}
+label{
+    font-weight: 500;
+}

@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.service-main-container {
+    margin-top: 0rem;
+    padding: 2rem 3rem;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .sub-heading {
+    font-size: 1.7rem;
+    font-weight: 300;
+  }
+  .service-main-container .main-heading {
+    margin: 3rem 0;
+  }
+  .service-container{
+    padding: 0 5rem;
+  }
+  .work-container-subdiv {
+    box-shadow: 0 0.1rem 0.4rem rgba(127, 62, 2, 0.447);
+  }
+  
+  /* .work-container-subdiv:hover {
+    background-color: var(--bgcolor);
+    cursor: pointer;
+  }
+  
+  .work-container-subdiv:hover {
+    background-color: #fff;
+    width: 2rem;
+    height: 3rem;
+  } */
+  .row {
+    display: flex;
+    justify-content: space-between; /* Change from space-around to space-between */
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .work-container-subdiv .main-hero-para {
+    width: 100%;
+  }
+ 
+  .service-main-container .work-container-subdiv .fontawesome-style {
+    text-align: left;
+    margin: 2rem 0;
+  }
+  
+  .main-hero-para {
+    font-size: 1rem;
+    color: var(--text-color);
+    margin: 3rem 1rem 5rem 0;
+    font-weight: lighter;
+    width: 75%;
+
+  }
+  @media (min-width: 1400px) {
+    .service-container .col-xxl-4 {
+      flex: 0 0 auto;
+      width: 30% !important;
+      margin: auto;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .service-container .col-lg-4 {
+      flex: 0 0 auto;
+      width: 30% !important;
+      margin: 2.5rem auto;
+    }
+  }
+  @media (max-width: 570px){
+    .service-main-container{
+      margin: 1rem 0rem;
+      padding: 0rem 0rem ;
+      justify-content: left;
+     
+      /* background-color: red; */
+    }
+    .work-container-subdiv{
+      margin: 1rem 0rem;
+      
+    }
+    .sub-heading{
+      font-size: 1.3rem;
+    }
+    .main-hero-para{
+      font-size: 0.8rem;
+    }
+    .service-container{
+      width: 100vw;
+      padding: 0;
+      padding-left: 20px;
+    }
+  }
+
+
+  
