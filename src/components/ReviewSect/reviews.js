@@ -2,7 +2,7 @@
 const reviews = [
     {
       name: 'Dhruv Patel',
-      profilePic: 'https://lh3.googleusercontent.com/a/ACg8ocKtz9kmJXnLKz74PV0kJm9mzYjegSB_S5UJPGTxy5gLK7DnxR0=s128-w32-d-h32-cc-rp',
+      profilePic: 'https://cdn-icons-png.flaticon.com/512/9104/9104087.png',
       text: 'Professional service and seamless transaction, highly recommended!',
     },
     {
@@ -17,7 +17,7 @@ const reviews = [
     },
     {
       name: 'Karan Shah',
-      profilePic: 'https://lh3.googleusercontent.com/a/ACg8ocLO13IMB-iOm-biEOK73NpxnA2-qEnKX3dVETC50Fc7uTeu-w=s128-w32-d-h32-cc-rp',
+      profilePic: 'https://static-00.iconduck.com/assets.00/k-letter-icon-2048x2048-99t9l1cd.png',
       text: 'Top-notch service, great experience.',
     },
     
