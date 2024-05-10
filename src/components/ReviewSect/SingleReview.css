@@ -29,8 +29,25 @@
    font-size: 1rem;
   }
   
-  /* @media (max-width: 770px){
+  @media (max-width: 900px){
     .single-review{
+      width: 80vw;
+      max-width: 100%;
+      display: flex;
+      flex-direction: row;
+     
+      
+    }
+    .review-details{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      height: auto;
+      width: 100%;
+    }
+    .review-text{
+      width: 100%;
+      height: auto;
 
     }
-  } */
+  }

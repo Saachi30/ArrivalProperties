@@ -95,8 +95,13 @@
       /* background-color: red; */
     }
     .work-container-subdiv{
-      margin: 2rem 0rem;
+      margin: 0rem 0rem;
+
       
+    }
+    .main-heading{
+      margin-left: 0;
+      margin-bottom: 1.7rem !important;
     }
     .sub-heading{
       font-size: 1.3rem;
