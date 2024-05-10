@@ -2,7 +2,7 @@
 
 * {
   margin: 0;
-  margin-left: 1px;
+  margin-left: 0;
   padding: 0;
   box-sizing: border-box;
   max-width: 100vw !important;
@@ -13,6 +13,7 @@
   flex-direction: column;
   /* justify-content: center;
   align-items: center; */
+ 
 }
 
 body {
