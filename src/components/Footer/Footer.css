@@ -11,9 +11,9 @@
   background: #734101;
   height: 25vh;
   text-align: center;
-  font-size: 22px;
+  font-size: 3rem;
   font-weight: 700;
-  text-decoration: underline;
+  
   
 }
 section{
@@ -26,8 +26,8 @@ section{
   box-sizing: border-box;
   width: 100%;
   text-align: left;
-  font: bold 16px sans-serif;
-  padding: 30px 50px;
+  font: bold 2rem sans-serif;
+  padding: 1rem 2rem;
 }
 
 .footer-distributed .footer-left,
@@ -40,7 +40,7 @@ section{
 /* Footer left */
 
 .footer-distributed .footer-left {
-  width: 40%;
+  width: 35%;
 }
 
 /* The company logo */
@@ -48,19 +48,15 @@ section{
 .footer-distributed h3 {
   color: #e9b767;
 
-  font: normal 36px 'Open Sans', cursive;
+  font: normal 2.5rem 'Open Sans', cursive;
   margin: 0;
-}
-
-.footer-distributed h3 span {
-  color: lightseagreen;
 }
 
 /* Footer links */
 
 .footer-distributed .footer-links {
   color: #ffffff;
-  margin: 20px 0 12px;
+  margin: 1rem 0;
   padding: 0;
 }
 
@@ -74,7 +70,7 @@ section{
 
 .footer-distributed .footer-company-name {
   color: #222;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: normal;
   margin: 0;
   
@@ -83,25 +79,20 @@ section{
 /* Footer Center */
 
 .footer-distributed .footer-center {
-  width: 35%;
+  width: 40%;
 }
 
 .footer-distributed .footer-center i {
   background-color: #734101;
   color: #ffffff;
-  font-size: 25px;
-  width: 38px;
-  height: 38px;
+  font-size: 1.4rem;
+  width: 2.3rem;
+  height: 2.3rem;
   border-radius: 50%;
   text-align: center;
-  line-height: 42px;
-  margin: 10px 15px;
+  line-height: 2.4rem;
+  margin: 1rem 0.5rem;
   vertical-align: middle;
-}
-
-.footer-distributed .footer-center i.fa-envelope {
-  font-size: 17px;
-  line-height: 38px;
 }
 
 .footer-distributed .footer-center p {
@@ -115,23 +106,23 @@ section{
 .footer-distributed .footer-center p span {
   display: block;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 0.7rem;
   line-height: 2;
 }
 
 .footer-distributed .footer-center p a {
-  color: lightseagreen;
+
   text-decoration: none;
 }
 
 .footer-distributed .footer-links a:before {
   content: "|";
   font-weight: 300;
-  font-size: 20px;
+  font-size: 1.3rem;
   left: 0;
   color: #fff;
   display: inline-block;
-  padding-right: 5px;
+  padding-right: 0.5rem;
 }
 
 .footer-distributed .footer-links .link-1:before {
@@ -144,84 +135,108 @@ section{
   width: 20%;
 }
 
-.footer-distributed .footer-company-about {
+/* .footer-distributed .footer-company-about {
   line-height: 20px;
   color: #92999f;
   font-size: 13px;
   font-weight: normal;
   margin: 0;
-}
+} */
 
-.footer-distributed .footer-company-about span {
+/* .footer-distributed .footer-company-about span {
   display: block;
   color: #ffffff;
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 20px;
-}
+} */
 
 .footer-distributed .footer-icons {
-  margin-top: 25px;
+  margin-top: 1.7rem;
 }
 
 .footer-distributed .footer-icons a {
   display: inline-block;
-  width: 35px;
-  height: 35px;
+  width: 2.3rem;
+  height: 2.3rem;
   cursor: pointer;
   background-color: #734101;
   border-radius: 2px;
-  font-size: 20px;
+  font-size: 2.4rem;
   color: #ffffff;
   text-align: center;
-  line-height: 35px;
-  margin-right: 3px;
-  margin-bottom: 5px;
+  line-height: 2rem;
+  margin-right: 0.2rem;
+  margin-bottom: 0.2rem;
 }
+h3{
+  font-family: "Sedan", serif;
+font-weight: 400;
+font-style: normal;
+text-decoration: double;
+}
+.footer-location{
+display: flex;
+justify-content: center;
 
+}
+.footer-location i{
+margin: 0.7rem 0.9rem 0.5rem 0.9rem;
+font-size: 1.3rem;
+}
+.footer-location p{
+  margin-top: 0.2rem;
+  width: auto;
+}
+.footer-map{
+margin-left: 0.9rem;
+}
+.footer-icons{
+display: flex;
+width: 50%;
+justify-content: space-around;
+}
+.footer-section{
+margin-bottom: 0px;
+}
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 880px) {
   .footer-distributed {
-    font: bold 14px sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 95vw;
+    padding: 1rem 1.5rem;
   }
-
+  .footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    font-weight: 400;
+    text-decoration: none;
+    color: inherit;
+    font-size: 1rem;
+    margin-left: 0;
+  }
   .footer-distributed .footer-left,
   .footer-distributed .footer-center,
   .footer-distributed .footer-right {
-    display: block;
     width: 100%;
+    text-align: center; /* Center text */
     margin-bottom: 40px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .footer-distributed .footer-center i {
     margin-left: 0;
   }
-}
-h3{
-    font-family: "Sedan", serif;
-  font-weight: 400;
-  font-style: normal;
-  text-decoration: double;
-}
-.footer-location{
-  display: flex;
-  justify-content: center;
- 
-}
-.footer-location i{
-  margin-right: 0.9rem;
-  margin-top: 0.7rem;
-}
-.footer-map{
-  margin-left: 0.9rem;
-}
-.footer-icons{
-  display: flex;
-  width: 50%;
-  justify-content: space-around;
-}
-.footer-section{
-  margin-bottom: 0px;
+  .footer-location i{
+    margin: 0.7rem 0.5rem 0.5rem 0.5rem;
+    font-size: 1.3rem;
+    }
+    
 }

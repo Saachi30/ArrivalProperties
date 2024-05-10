@@ -17,7 +17,7 @@ const Services = () => {
     <>
       <section className="service-main-container">
         <div className="container service-container">
-          <h1 className="main-heading text-center" data-aos="fade-up">
+          <h1 className="main-heading text-center" >
             Our Services 
           </h1>
           <div className="row">
