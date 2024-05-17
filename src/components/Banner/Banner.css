@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.outerbanner{
+    width: 100vw;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgb(129, 69, 0), rgb(212, 184, 165));
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    
+}
+.leftbanner{
+    width: 40%;
+    height: 90%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    /* align-items: center; */
+    margin-left: 10rem;
+
+}
+.leftbanner h1{
+    width: 20%;
+    font-size: 4rem;
+    margin-left: 4.5rem;
+}
+.rightbanner{
+    width: 50%;
+    height: 80%;
+}
+.rightbanner img{
+ 
+    height: 90%;
+    width: auto;
+    margin-left: 8rem;
+    border-radius: 0.2rem;
+    margin-top: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.362);
+}
+@media (max-width: 1000px) {
+    .outerbanner {
+        flex-direction: column;
+        height: auto;
+        padding: 2rem 1rem;
+        justify-content: center;
+        align-items: center; /* Adjust padding for smaller screens */
+    }
+    .leftbanner, .rightbanner {
+        width: 100%; /* Full width on smaller screens */
+        text-align: center; 
+       
+    
+    }
+    
+    .rightbanner img {
+        margin-top: 1rem;
+        margin-left: 1rem;
+    width: 90%;
+    height: auto;
+    }
+    .leftbanner h1 {
+        font-size: 2rem;
+        margin-left: -2rem; 
+
+        width: 70%;
+       
+    }
+}

@@ -5,6 +5,7 @@ import Navbar from '../Navbar/Navbar'
 import About from '../About/About'
 import Services from '../Services/Services'
 import ReviewSection from '../ReviewSect/ReviewSection'
+import Banner from '../Banner/Banner'
 const HomePage = () => {
   return (
     <div>
@@ -16,6 +17,9 @@ const HomePage = () => {
     
     <div>
       <Services />
+      </div>
+      <div>
+        <Banner/>
       </div>
       <div>
       <About/>

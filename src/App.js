@@ -7,6 +7,7 @@ import { useEffect } from 'react';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import Services from './components/Services/Services';
+import ReviewSection from './components/ReviewSect/ReviewSection';
 
 function App() {
   return (
@@ -17,8 +18,8 @@ function App() {
         <Routes>
           <Route path='/' element={<HomePage />} />
           <Route path='/about' element={<About />} />
-          <Route path='/blog' element={<HomePage />} />
-          <Route path='/contact' element={<HomePage />} />
+          <Route path='/services' element={<Services />} />
+          <Route path='/contact' element={<ReviewSection />} />
         </Routes>
       </BrowserRouter>
      
