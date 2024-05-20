@@ -27,7 +27,7 @@ const Carousel = () => {
                     <div className="carousel-inner">
                         <div className="carousel-item active" data-bs-interval="4000" id="carousel1">
                             <div className="carouselText">
-                                <h1>One of the finest Realators in Mumbai</h1>
+                                <h1>One of the Finest Realators in Mumbai</h1>
                                 <h4>Find your happy place with Arrival Properties!</h4>
                             </div>
                         </div>

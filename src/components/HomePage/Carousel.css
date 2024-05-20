@@ -103,9 +103,14 @@
     .carouselContainer{
         max-height: 40vh;
         margin-bottom: 2rem;
+        
     }
     #carousel1 h1{
         font-size: 2rem;
+      
+    }
+    .carouselContainer h1, h4{
+        text-align: left;
     }
     #carousel1::after {
         background-image: url("https://www.hamaribaat.com/wp-content/uploads/2017/02/mumbai-night-life.jpg");
