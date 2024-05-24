@@ -13,7 +13,14 @@ const Banner = () => {
     <>
       <div className='outerbanner'>
         <div className='leftbanner'>
-            <h1 data-aos="fade-in">Project Management Consultancy</h1>
+        <div>
+            <h1 data-aos="fade-in">Project Management Consultancy</h1> 
+            <p>Optimize project lifecycles with tailored strategies.</p>
+            </div>
+            <div>
+            <h1 data-aos="fade-in">Redevelopment</h1> 
+            <p>Transform spaces innovatively and sustainably with our in-house developer.</p>
+            </div>
             
         </div>
         <div className='rightbanner'>

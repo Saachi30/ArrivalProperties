@@ -9,7 +9,7 @@
   width: 100%;
   display: inline-block;
   background: #734101;
-  height: 25vh;
+  height: 30vh;
   text-align: center;
   font-size: 3rem;
   font-weight: 700;
@@ -66,6 +66,7 @@ section{
   font-weight: 400;
   text-decoration: none;
   color: inherit;
+  margin-bottom: 1rem;
 }
 
 .footer-distributed .footer-company-name {
@@ -94,12 +95,20 @@ section{
   margin: 1rem 0.5rem;
   vertical-align: middle;
 }
+.footer-distributed .footer-center b{
+  font-size: 1.4rem;
+  margin: 3rem 1rem;
+  line-height: 3;
+  font-weight: 600;
+  color: rgb(234, 237, 241);
+ 
+}
 
 .footer-distributed .footer-center p {
   display: inline-block;
   color: #ffffff;
   font-weight: 400;
-  vertical-align: middle;
+  
   margin: 0;
 }
 
@@ -123,6 +132,7 @@ section{
   color: #fff;
   display: inline-block;
   padding-right: 0.5rem;
+
 }
 
 .footer-distributed .footer-links .link-1:before {
@@ -152,7 +162,7 @@ section{
 } */
 
 .footer-distributed .footer-icons {
-  margin-top: 1.7rem;
+  margin: 1rem -1rem;
 }
 
 .footer-distributed .footer-icons a {
@@ -219,6 +229,7 @@ margin-bottom: 0px;
     font-size: 1rem;
     margin-left: 0;
   }
+
   .footer-distributed .footer-left,
   .footer-distributed .footer-center,
   .footer-distributed .footer-right {
@@ -233,6 +244,8 @@ margin-bottom: 0px;
 
   .footer-distributed .footer-center i {
     margin-left: 0;
+    margin-bottom: 0.2rem;
+    margin-top: 2.5rem;
   }
   .footer-location i{
     margin: 0.7rem 0.5rem 0.5rem 0.5rem;

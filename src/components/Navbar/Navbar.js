@@ -9,6 +9,9 @@ function Navbar() {
 
   return (
     <>
+      {/* <div className="header-rera">
+      <p>RERA No: A51800047925</p>
+      </div> */}
       <nav className="navbar">
         <div className="nav-container">
           <Link exact to="/" className="nav-logo">

@@ -16,6 +16,9 @@ const Footer = () => {
           <p className="footer-company-name" >Arrival Properties © 2024</p>
         </div>
         <div className="footer-center">
+        <div>
+            <p><b>RERA No: A51800047925</b></p>
+          </div>
           <div>
             <i className="fa fa-phone"></i>
             <p>+91 9769605225</p>
@@ -24,6 +27,7 @@ const Footer = () => {
             <i className="fa fa-envelope"></i>
             <p><a href="mailto:salvi.bhavya@gmail.com" style={{color:"#fff"}}>salvi.bhavya@gmail.com</a></p>
           </div>
+          
           <div className="footer-icons" style={{color: "#fff"}}>
             <a href="#"><i className="fa fa-facebook"></i></a>
             <a href="tel:+919769605225"><i class="fa-brands fa-whatsapp"></i></a>

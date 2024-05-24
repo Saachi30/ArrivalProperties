@@ -2,6 +2,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
 
+.header-rera{
+    z-index: 200;
+    width: 100vw;
+    height: 0.1vh;
+    /* height: 1.5rem; */
+    font-size: 0.3rem !important;
+    /* color: white;
+    background: #945105; */
+    color: #472601;
+    background-color: white;
+    text-align: center;
+    font-family: "Sedan", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    /* position: absolute;
+    top: 1rem;
+    left: auto; */
+    /* padding: 1rem 1rem; */
+    padding-bottom: 0px;
+    position: sticky;
+    top: 0;
+
+}
+.header-rera p{
+    margin-top: 4rem;
+    z-index: 2;
+}
 .navbar {
     background-color: white;
     height: 90px;
@@ -23,6 +52,8 @@
     height: 80px;
     max-width: 1500px;
     position: relative;
+    margin-top: 0px !important;
+    padding-top: 0px !important;
 }
 
 .nav-logo {
@@ -222,8 +253,40 @@
       font-size: 1.4rem;
       color: black; /* Ensure icon is visible */
       z-index: 10; /* Ensure icon is above the menu */
-      margin-top: 1.6rem;
+      margin-top: 2.2rem;
       
+    }
+    .header-rera{
+        z-index: 200;
+        width: 100vw;
+        height: 2vh;
+        /* height: 1.5rem; */
+        font-size: 0.1rem;
+        /* color: white;
+        background: #945105; */
+        color: #472601;
+        background-color: white;
+        text-align: center;
+        font-family: "Sedan", serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0px;
+        /* position: absolute;
+        top: 1rem;
+        left: auto; */
+        /* padding: 1rem 1rem; */
+        padding-bottom: 0px;
+        position: sticky;
+        top: 0;
+    
+    }
+    .header-rera p{
+        margin: 1rem 1rem;
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+        z-index: 2;
+        padding: 2rem 1rem;
     }
   }
   
