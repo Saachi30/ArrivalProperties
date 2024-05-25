@@ -5,3 +5,18 @@
     justify-content: center;
     flex-direction: column;
 }
+.aboutbox2{
+    display: none;
+}
+@media(max-width: 1000px){
+    .aboutbox1{
+        display: none;
+        
+    }
+    .aboutbox2{
+        display: block;
+    }
+    .servicesbox{
+        display: none;
+    }
+}

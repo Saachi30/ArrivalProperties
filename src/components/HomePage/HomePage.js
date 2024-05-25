@@ -14,14 +14,16 @@ const HomePage = () => {
       <div className='carouselbox'>
       <Carousel/>
     </div>
-    
-    <div>
+    <div className='aboutbox2'>
+      <About/>
+    </div>
+    <div className='servicesbox'>
       <Services />
       </div>
-      <div>
+      <div className='bannerbox'>
         <Banner/>
       </div>
-      <div>
+      <div className='aboutbox1'>
       <About/>
     </div>
 

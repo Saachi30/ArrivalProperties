@@ -112,7 +112,7 @@
   
     .leftabout img,
     .rightabout img {
-      width: 100%;
+      width: 90%;
       height: auto;
       margin: 1rem 0rem;
     
@@ -125,6 +125,8 @@
       font-size: 0.9rem;
       text-align: center;
       padding-left: 5rem;
+      line-height: 1.8rem;
+      margin: 1rem 0rem;
     }
     img{
       margin-right: 2rem;
