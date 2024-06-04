@@ -15,9 +15,9 @@ const HomePage = () => {
       <div className='carouselbox'>
       <Carousel/>
     </div>
-    <div className='flatsectionouter'>
+    {/* <div className='flatsectionouter'>
       <FlatSection/>
-    </div>
+    </div> */}
     <div className='aboutbox2'>
       <About/>
     </div>
