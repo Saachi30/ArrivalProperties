@@ -8,6 +8,7 @@ import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import Services from './components/Services/Services';
 import ReviewSection from './components/ReviewSect/ReviewSection';
+import FlatDetails from './components/FlatSection/FlatDetails';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/services' element={<Services />} />
           <Route path='/contact' element={<ReviewSection />} />
+          <Route path='/flat-detail/:id' element={<FlatDetails/>}/>
         </Routes>
       </BrowserRouter>
      

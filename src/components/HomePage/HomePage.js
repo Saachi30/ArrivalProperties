@@ -6,6 +6,7 @@ import About from '../About/About'
 import Services from '../Services/Services'
 import ReviewSection from '../ReviewSect/ReviewSection'
 import Banner from '../Banner/Banner'
+import FlatSection from '../FlatSection/FlatSection'
 const HomePage = () => {
   return (
     <div>
@@ -13,6 +14,9 @@ const HomePage = () => {
       
       <div className='carouselbox'>
       <Carousel/>
+    </div>
+    <div className='flatsectionouter'>
+      <FlatSection/>
     </div>
     <div className='aboutbox2'>
       <About/>
