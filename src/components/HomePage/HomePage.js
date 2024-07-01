@@ -7,6 +7,8 @@ import Services from '../Services/Services'
 import ReviewSection from '../ReviewSect/ReviewSection'
 import Banner from '../Banner/Banner'
 import FlatSection from '../FlatSection/FlatSection'
+import OfficeSpace from '../OfficeSpace/OfficeSpace'
+import LandParcels from '../LandParcels/LandParcels'
 const HomePage = () => {
   return (
     <div>
@@ -24,13 +26,20 @@ const HomePage = () => {
     <div className='servicesbox'>
       <Services />
       </div>
+      <div>
+          <OfficeSpace/>
+        </div>
+        <div>
+          <LandParcels/>
+        </div>
       <div className='bannerbox'>
         <Banner/>
       </div>
-      <div className='aboutbox1'>
+      
+      {/* <div className='aboutbox1'>
       <About/>
-    </div>
-
+    </div> */}
+        
     <div>
       <ReviewSection/>
     </div>

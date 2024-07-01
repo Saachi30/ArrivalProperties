@@ -1,0 +1,68 @@
+/* LandParcels.css */
+
+.land-parcel-container {
+  width: 100vw;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  margin-top: 5rem;
+}
+
+.text-landparcel h1 {
+  font-size: 1.6em;
+  margin-bottom: 30px;
+}
+
+.map-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.text-landparcel {
+  font-size: 1.5em;
+  color: #333;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-landparcel p {
+  font-size: 1.5rem;
+}
+.resp-h{
+  display: none;
+  font-size: 1.6em;
+}
+
+@media (max-width: 1000px) {
+  .land-parcel-container {
+      flex-direction: column;
+      gap: 20px;
+  }
+
+  .map-image {
+      width: 90%;
+      margin-left: 1rem;
+  }
+
+  .text-landparcel {
+      max-width: 90%;
+      text-align: center;
+      
+  }
+  .text-landparcel p{
+    padding: 0 2rem;
+  }
+  .text-landparcel h1{
+    display: none;
+  }
+  .resp-h{
+    display: block;
+    margin-bottom: 0;
+    font-size: 1.6em;
+  }
+  
+}
